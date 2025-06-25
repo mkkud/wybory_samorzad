@@ -28,7 +28,7 @@ if __name__ == "__main__":
     folder_path = 'data/data_2nd'  # Replace with your folder path
     combined_data = load_data_from_folder(folder_path)
     print(combined_data.head())  # Display the first few rows of the combined DataFrame
-    combined_data.to_csv('combined_data.csv', index=False)  # Save the combined DataFrame to a CSV file
+    combined_data.to_csv('combined_data_2nd_round.csv', index=False)  # Save the combined DataFrame to a CSV file
 
 
 
